@@ -1,0 +1,6 @@
+; Hello world in Clojure
+
+(defn hello []
+  (println "Hello world!"))
+
+(hello)

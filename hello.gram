@@ -1,0 +1,17 @@
+//Hello World in GRAMophone
+
+composition "Hello, World!" of "Composer"
+{
+ %
+ player player1 {
+    grammar lindenmayer
+    %
+    axiom->print("Hello, World!");
+ }
+
+ player player2 {
+    grammar chomsky
+    %
+       @composition->print("Hello, World!");
+ }
+}

@@ -1,0 +1,12 @@
+// Hello world in ChaiScript
+
+#include <chaiscript/chaiscript.hpp>
+
+int main() {
+  chaiscript::ChaiScript chai;
+  chai.add(chaiscript::fun(&helloWorld), "helloWorld");
+
+  chai.eval(R"(
+    puts("Hello, World!");
+  )");
+}

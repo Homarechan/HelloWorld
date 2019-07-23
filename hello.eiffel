@@ -1,0 +1,8 @@
+note "Hello World in Eiffel"
+class HELLO
+create run
+feature run
+    do
+        print ("Hello, World!%N")
+    end
+end

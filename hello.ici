@@ -1,0 +1,2 @@
+# Hello World in ici (http://www.zeta.org.au/~atrn/ici/)
+printf("Hello, World!\n");

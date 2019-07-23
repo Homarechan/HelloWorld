@@ -1,0 +1,8 @@
+' Hello World for BlitzMax
+
+Graphics 640,480,16
+While Not KeyHit(KEY_ESCAPE)
+    Cls
+    DrawText "Hello, World!",0,0
+    Flip
+EndWhile

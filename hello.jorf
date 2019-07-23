@@ -1,0 +1,6 @@
+| Hello world in Jorf
+
+Hello:Start
+  Msg:Add("Hello", "Ok")
+    Hello, World!
+  Return

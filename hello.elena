@@ -1,0 +1,6 @@
+// Hello world in ELENA
+
+program =
+[
+    console writeLine:"Hello, World!".
+].

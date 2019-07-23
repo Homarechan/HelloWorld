@@ -1,0 +1,6 @@
+// Hello World in LPC
+
+void create()
+{
+    message("info","Hello, World!",this_user());
+}

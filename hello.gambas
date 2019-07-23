@@ -1,0 +1,6 @@
+'************************************
+' Hello world in Gambas
+'************************************
+PUBLIC SUB Main()
+    PRINT "Hello, World"
+END

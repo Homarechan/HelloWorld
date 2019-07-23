@@ -1,0 +1,5 @@
+! Hello World in DML (Gembase database language)
+
+PROCEDURE_FORM MAIN
+    PRINT/NOWAIT ("Hello, World!")
+END_FORM

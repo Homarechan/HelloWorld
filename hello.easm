@@ -1,0 +1,17 @@
+// Hello World in easm (Win32).
+
+subsystem cui
+
+section imports
+
+    from msvcr70.dll import printf
+    from kernel32.dll import ExitProcess
+
+section data
+
+    string pszOutput = "Hello, World!"
+
+section code
+
+    call printf (&pszOutput)
+    call ExitProcess (00h)

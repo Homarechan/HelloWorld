@@ -1,0 +1,3 @@
+; Hello World in AutoHotkey
+
+Msgbox Hello, World!

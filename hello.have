@@ -1,0 +1,5 @@
+// Hello world in Have
+
+func main() {
+    print("Hello, World!")
+}

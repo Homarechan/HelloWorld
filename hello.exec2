@@ -1,0 +1,7 @@
+Hello World for IBM EXEC2 (under VM/CMS)
+
+&TRACE OFF
+*
+&TYPE Hello World!
+*
+&EXIT 0

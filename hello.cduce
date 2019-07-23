@@ -1,0 +1,3 @@
+(* Hello World in CDuce *)
+
+print "Hello, World!\n";;

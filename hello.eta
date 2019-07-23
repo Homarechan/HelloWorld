@@ -1,0 +1,3 @@
+-- Hello world in Eta
+
+main = putStrLn $ "Hello, World!"

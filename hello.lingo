@@ -1,0 +1,5 @@
+Hello World in Lingo (Macromedia Director)
+
+on startmovie
+  alert "Hello, World" 
+end

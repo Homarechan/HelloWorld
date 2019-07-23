@@ -1,0 +1,3 @@
+' Hello World in Alpha Five Xbasic
+
+ui_msg_box("Hello, World", "Hello, World!", UI_ATTENTION_SYMBOL)

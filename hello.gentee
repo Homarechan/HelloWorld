@@ -1,0 +1,7 @@
+// Hello World in Gentee
+
+func hello <main>
+{
+    print("Hello, World!")
+    getch()
+}

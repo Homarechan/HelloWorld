@@ -1,0 +1,5 @@
+/* Hello World in Ingres ABF */
+procedure hello =
+begin
+    message 'Hello, World!' with style=popup;
+end

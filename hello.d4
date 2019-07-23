@@ -1,0 +1,3 @@
+// Hello World as a relation-variable in D4
+
+select row { "Hello World" AMessage }

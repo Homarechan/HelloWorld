@@ -1,0 +1,10 @@
+<<!! Hello World in DynaMorph >>
+<#setString foo {Hello World!}#>
+<html>
+<head>
+    <title>DynaMorph</title>
+</head>
+<body>
+<#getString foo#>
+</body>
+</html>

@@ -1,0 +1,5 @@
+/* Hello world in Draco */
+
+proc main()void:
+    writeln("Hello, World!");
+corp;

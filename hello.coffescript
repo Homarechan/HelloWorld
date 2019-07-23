@@ -1,0 +1,3 @@
+// Hello world in CoffeeScript
+
+alert "Hello, World!"

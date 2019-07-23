@@ -1,0 +1,6 @@
+// Hello World in APC
+
+probe program
+{
+    on?entry log ("Hello, World!\n);
+}

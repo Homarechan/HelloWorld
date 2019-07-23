@@ -1,0 +1,12 @@
+!Hello World in Clarion 
+ 
+  PROGRAM
+ 
+ MAP
+ END
+ 
+ CODE
+ 
+ MESSAGE('Hello, World!')
+ 
+ RETURN

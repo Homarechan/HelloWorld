@@ -1,0 +1,6 @@
+/**
+ *   start script -- Hello world in Ferite ( www.ferite.org )
+ */
+uses "console";
+Console.println("Hello, World");
+/* end script */

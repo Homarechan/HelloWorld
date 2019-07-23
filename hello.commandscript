@@ -1,0 +1,6 @@
+#Hello World in Command Script 3.1
+#Meta.Name: "Hello World"
+
+#Block(Main).Start
+    echo "Hello, World!"
+#Block(Main).End

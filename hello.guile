@@ -1,0 +1,3 @@
+; Hello world in Guile
+
+(define do-hello (lambda () (display "Hello world.") (newline)))

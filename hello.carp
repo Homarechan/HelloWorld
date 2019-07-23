@@ -1,0 +1,3 @@
+;; Hello world in Carp
+
+(println "Hello, World!")

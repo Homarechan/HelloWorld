@@ -1,0 +1,4 @@
+!  "Hello world" in Inform
+[ Main;
+  print "Hello, World!^";
+];

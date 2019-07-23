@@ -1,0 +1,5 @@
+// Hello World in GLBasic
+
+PRINT "Hello, World",1,1
+SHOWSCREEN
+MOUSEWAIT

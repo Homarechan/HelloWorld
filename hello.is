@@ -1,0 +1,6 @@
+// Hello World in InstallScript
+// (Scripting language of InstallShield, a Windows install generator)
+
+program
+    MessageBox("Hello, World!",INFORMATION);
+endprogram

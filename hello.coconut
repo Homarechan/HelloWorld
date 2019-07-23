@@ -1,0 +1,3 @@
+# Hello world in Coconut
+
+"hello, World!" |> print

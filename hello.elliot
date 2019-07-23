@@ -1,0 +1,8 @@
+:: Hello World in Elliott Autocode
+SETF PUNCH
+SETR 1
+1)TELEPRINTER
+LINE
+TITLE Hello, World!;
+STOP
+START 1

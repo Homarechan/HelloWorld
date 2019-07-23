@@ -1,0 +1,3 @@
+(* Hello World in ELAN *)
+
+putline ("Hello, World!");

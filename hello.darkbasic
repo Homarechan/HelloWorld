@@ -1,0 +1,4 @@
+` Hello World in Darkbasic
+
+print "Hello, World!"
+wait key

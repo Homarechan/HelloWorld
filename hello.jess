@@ -1,0 +1,3 @@
+; Hello World in JESS
+
+(printout t "Hello, World!")

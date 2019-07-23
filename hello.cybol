@@ -1,0 +1,8 @@
+<!-- Hello World in Cybernetics Oriented Language (CYBOL) -->
+<model>
+    <part name="send_message" channel="inline" abstraction="operation" model="send">
+        <property name="channel" channel="inline" abstraction="character" model="shell"/>
+        <property name="message" channel="inline" abstraction="character" model="Hello, World!"/>
+    </part>
+    <part name="exit_application" channel="inline" abstraction="operation" model="exit"/>
+</model>

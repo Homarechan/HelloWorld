@@ -1,0 +1,18 @@
+title 'Hello world in cpl on a Warrex Centurion'
+system zhelloworld      (main,exp=d)
+;
+file crt:sysipt,class=0,seq
+;
+define m00:'Hello, World!'
+format f00:c132
+;
+entrypoint crt
+;
+entry
+;
+open io crt
+;
+write (crt, f00) m00
+stop 0
+;
+end

@@ -1,0 +1,5 @@
+# Hello world in Icon (http://www.cs.arizona.edu/icon/)
+
+procedure main()
+    write("Hello world")
+end

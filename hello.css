@@ -1,0 +1,4 @@
+/* Hello World in CSS */
+body:before {
+    content: "Hello World";
+}

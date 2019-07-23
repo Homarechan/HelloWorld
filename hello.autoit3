@@ -1,0 +1,3 @@
+;Hello, World for AutoIT3  http://www.autoitscript.com
+
+msgbox(0,"Hello, World!",0)

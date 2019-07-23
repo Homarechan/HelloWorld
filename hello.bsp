@@ -1,0 +1,10 @@
+<!— Hello World in  SAP Business Server Pages (BSP)
+<%@page language="abap"%>
+<%@extension name="htmlb" prefix="htmlb"%>
+<html><body>
+<%
+  CONSTANTS lv_hworld TYPE string VALUE `Hello, World!`.
+%>
+<%=lv_hworld%>">
+</body>
+</html>

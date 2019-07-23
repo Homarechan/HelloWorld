@@ -1,0 +1,5 @@
+(* Hello World in CAML Light *)
+
+let hello =
+   print_string "Hello, World!";
+;;

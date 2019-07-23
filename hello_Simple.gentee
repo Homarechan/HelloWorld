@@ -1,0 +1,3 @@
+// Hello World in Gentee (simple version)
+
+func hello<main> : @"Hello, World!"

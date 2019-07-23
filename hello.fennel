@@ -1,0 +1,3 @@
+// Hello world in Fennel
+
+(print "Hello, World!")

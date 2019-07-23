@@ -1,0 +1,9 @@
+Hello World in amharic (in JavaScript)
+
+ 
+<%@ language="javascript" %>
+<html><body>
+<%
+Response.Write('Hello, World!');
+%>
+</body></html>

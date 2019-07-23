@@ -1,0 +1,3 @@
+-> Hello World in Amiga-E
+
+PROC main() IS WriteF('Hello, World\n')

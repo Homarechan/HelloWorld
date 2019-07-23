@@ -1,0 +1,23 @@
+#
+#  Hello World in BMC Remedy 7.0
+#
+begin active link
+   name           : Remedy_HelloWorld
+   timestamp      : 1210249958
+   export-version : 9
+   owner          : Demo
+   last-changed   : Demo
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : _1
+   actlink-mask   : 16
+   enable         : 1
+   permission     : 0
+   action {
+      message-type: 0
+      message-num : 10000
+      message-pane: 1
+      message-text: Hello, World!!
+   }
+   object-prop    : 2\60016\4\1\0\60017\4\1\0\
+end

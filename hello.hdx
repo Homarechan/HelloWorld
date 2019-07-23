@@ -1,0 +1,11 @@
+# Hello World as bdehaldia.exe external command
+
+proc hdx_info {} {
+    set ::Titel [TRA "&Hello, World!"]
+    set ::Menu GMA
+}
+
+proc hdx_run {} {
+    tk_messageBox -type ok -message [TRA "Hello World!"]
+    destroy .
+}

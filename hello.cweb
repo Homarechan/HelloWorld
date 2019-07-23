@@ -1,0 +1,27 @@
+\def\title{<a href="/showArticle.jhtml?documentID=cuj9505wittenbe&pgno=1">Listing 1</a>}
+
+@*A Simple Example.
+This is a trivial example of a \.{CWEB} program.
+It is, of course, the classic "hello, world"
+program we all know and love:
+
+@c
+@<Header files needed by the program@>@;
+@#
+main(void)
+{
+   @<Print the message |"hello, world"|@>@;
+}
+
+@ Naturally, we use |printf| to do the dirty work:
+
+@<Print the message |"hello, world"|@>=
+printf("hello, world\n");
+
+@ The prototype for |printf| is in the standard
+header, \.{<stdio.h>}.
+
+@<Header files needed by the program@>=
+#include <stdio.h>
+
+@*Index.

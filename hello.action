@@ -1,0 +1,5 @@
+; Hello World in Action!
+
+PROC Main()
+    PrintE("Hello, World!")
+RETURN

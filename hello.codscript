@@ -1,0 +1,5 @@
+// Hello world in CoDScript
+
+main(){
+    iPrintLnBold("Hello World!");
+}

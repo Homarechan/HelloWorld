@@ -1,0 +1,8 @@
+{Hello World in Kylix} 
+
+program Hello_World;
+ uses
+     QDialogs;
+ begin
+     ShowMessage('Hello, World!');
+ end.
