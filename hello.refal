@@ -1,0 +1,6 @@
+* Hello world in Refal
+
+$ENTRY Go { = <Hello>;}
+Hello {
+   = <Prout 'Hello, World!'>;
+}

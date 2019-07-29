@@ -1,0 +1,11 @@
+' Hello World in xblite, Windows GUI mode
+
+	IMPORT "gdi32"
+	IMPORT "user32"
+
+DECLARE FUNCTION Entry ()
+
+FUNCTION Entry ()
+	MessageBoxA (0, &"Hello World!", &"Hello World Window", $$MB_OK)
+END FUNCTION
+END PROGRAM

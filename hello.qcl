@@ -1,0 +1,3 @@
+// Hello world in QCL
+
+print "Hello, World";

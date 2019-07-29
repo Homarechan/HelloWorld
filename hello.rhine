@@ -1,0 +1,3 @@
+;; Hello world in rhine
+
+(println "Hello, World")

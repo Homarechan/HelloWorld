@@ -1,0 +1,3 @@
+$! Hello World in OpenVMS DCL
+
+$ write sys$output "Hello, World"

@@ -1,0 +1,3 @@
+\ Hello world in Punyforth
+
+println: "Hello, World!"

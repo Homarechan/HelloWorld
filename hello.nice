@@ -1,0 +1,5 @@
+//Hello World in Nice
+
+void main(String[] args){ 
+   println("Hello, World!"); 
+}

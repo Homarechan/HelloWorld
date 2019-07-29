@@ -1,0 +1,7 @@
+;       "Hello, World!" in MACRO-11 for RT-11
+
+        .MCALL  .EXIT,.PRINT
+START:  .PRINT  #$1
+        .EXIT
+$1:     .ASCIZ  /Hello, World!/
+        .END    START

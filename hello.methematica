@@ -1,0 +1,3 @@
+(* Hello World in Mathematica *)
+
+Hello[] := Print["Hello, World!"]

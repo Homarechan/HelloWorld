@@ -1,0 +1,5 @@
+; Hello World in Omnimark
+
+
+process
+     output "Hello, World!%n"

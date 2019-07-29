@@ -1,0 +1,10 @@
+ HELLO: PROCEDURE OPTIONS(MAIN);
+*
+ /* Hello World in SPL4 (Siemens) */
+*
+ DCL PRINTC ENTRY;
+*
+ CALL PRINTC('Hello, World!', 12);
+ RETURN;
+*
+ END HELLO;

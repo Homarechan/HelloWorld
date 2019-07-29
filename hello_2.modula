@@ -1,0 +1,8 @@
+(* Hello World in Modula-2 *)
+
+MODULE HelloWorld;
+FROM InOut IMPORT WriteString,WriteLn;
+BEGIN
+  WriteString("Hello, World!");
+  WriteLn;
+END HelloWorld.

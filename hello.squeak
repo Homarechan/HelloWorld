@@ -1,0 +1,3 @@
+"Hello world in Squeak"
+
+Transcript show: 'Hello, World!'

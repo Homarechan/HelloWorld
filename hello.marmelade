@@ -1,0 +1,3 @@
+/ Hello world in Marmelade
+
+sayln "Hello, World!"

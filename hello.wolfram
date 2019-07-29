@@ -1,0 +1,3 @@
+(* Hello world in Wolfram Language *)
+
+CloudDeploy["Hello, World!"]

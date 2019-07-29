@@ -1,0 +1,25 @@
+Hello World in VAX Macro.
+
+        .title  helloworld
+        .ident  /hello world/
+;
+        .library        /sys$library:lib/
+        $libdef
+        $lib$routinesdef
+
+
+        .psect  $data,wrt,noshr,noexe,long
+
+hello:  .ascid  /Hello World!/
+
+        .psect  $code,nowrt,shr,exe,long
+
+        .entry  helloworld,^m<r9,r10,r11>
+
+        pushaq  hello                   ; output the
+message
+        calls   #1,g^lib$put_output     ;
+
+        ret                             ; GTFOH
+        .end    helloworld              ;
+

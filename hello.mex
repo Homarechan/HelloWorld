@@ -1,0 +1,6 @@
+// "Hello, World!" in MEX for Maximus BBS
+
+void main()
+{
+  print(COLOR_WHITE,"Hello, World!\n");
+}

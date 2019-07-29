@@ -1,0 +1,7 @@
+REM Hello World for OPL (Psion Organizer 3a)
+REM Simple version
+
+PROC HELLO:
+  PRINT "Hello, World!"
+  GET
+ENDP

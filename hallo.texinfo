@@ -1,0 +1,18 @@
+\input texinfo
+@c Hello World for Texinfo
+
+@setfilename hello
+@settitle Hello World
+
+@node Top, Hello, (dir), (dir)
+
+@menu
+* Hello:: Hello World
+@end menu
+
+@node Hello, , Top, Top
+
+Hello, World!
+
+@contents
+@bye

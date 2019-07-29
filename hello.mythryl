@@ -1,0 +1,3 @@
+#!/usr/bin/mythryl
+# Hello World in Mythryl
+printf "Hello, World!\n";

@@ -1,0 +1,5 @@
+// Hello world in ParaSail
+
+func Hello_World(var IO) is
+    IO.Println("Hello, World!");
+end func Hello_World;

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.macromedia.com/2003/mxml">
+     <!-- Hello Word in Macromedia Flex -->
+     <mx:Label text="Hello, World!"/>
+</mx:Application>

@@ -1,0 +1,3 @@
+' Hello World in Microsoft Small Basic
+
+TextWindow.WriteLine("Hello, World")

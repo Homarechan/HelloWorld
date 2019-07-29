@@ -1,0 +1,40 @@
+; Hello world in MPLAB IDE
+
+load_HELLO_W
+lfsr2,0x100
+movlwd'11'
+movwfPOSTINC2
+movlw"H"
+movwfPOSTINC2
+movlw"E"
+movwfPOSTINC2
+movlw"L"
+movwfPOSTINC2
+movwfPOSTINC2
+movlw"O"
+movwfPOSTINC2
+movlw" "
+movwfPOSTINC2
+movlw"W"
+movwfPOSTINC2
+movlw"O"
+movwfPOSTINC2
+movlw"R"
+movwfPOSTINC2
+movlw"L"
+movwfPOSTINC2
+movlw"D"
+movwfPOSTINC2
+SEND_HELLO_WORLD
+lfsr1,0x100
+movf    POSTINC1,w
+movwfstr_length
+SLmovf       POSTINC1,w
+movwfTXREG
+TX_wait
+btfss      TXSTA,TRMT
+braTX_wait
+decfszstr_length,f
+braSL
+DONE_MESSAGE
+nop

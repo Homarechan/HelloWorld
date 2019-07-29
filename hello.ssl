@@ -1,0 +1,5 @@
+<html><body><p>
+<!-- Hello world as Server Side Includes, embedded in HTML. -->
+<!--#set var="hello" value="Hello, World!" -->
+<!--#echo var="hello" -->
+</p></body></html>

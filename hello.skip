@@ -1,0 +1,5 @@
+// Hello world in Skip
+
+fun main(): void {
+  print_raw("Hello, world!")
+}

@@ -1,0 +1,9 @@
+<!-- Hello World in Vexi. -->
+
+<vexi xmlns:ui="vexi://ui">
+    <ui:box framewidth="200" frameheight="100">
+        <ui:box text="Hello, World!" />
+        vexi.ui.frame = thisbox;
+    </ui:box>
+</vexi>
+/<

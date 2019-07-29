@@ -1,0 +1,7 @@
+/* "hello, world" in VSL (the script language of Virtools),
+to be used in a "Run VSL" building block */
+ 
+void main()
+{
+    bc.OutputToScreen("Hello, World!");
+}

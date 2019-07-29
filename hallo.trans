@@ -1,0 +1,3 @@
+// Hello World in Trans
+import Console
+Console.write("Hello, World!")

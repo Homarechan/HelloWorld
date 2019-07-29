@@ -1,0 +1,3 @@
+# Hello world in szl
+
+$global msg {Hello, World!}

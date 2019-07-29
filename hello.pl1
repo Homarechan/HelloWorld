@@ -1,0 +1,5 @@
+/* Hello World in PL/1 */
+
+Hello: procedure options(main);
+       put skip list('Hello, World!');
+end Hello;

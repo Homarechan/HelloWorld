@@ -1,0 +1,8 @@
+' Hello World in PBASIC (for the Boe-Bot Robot)
+
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+DEBUG "Hello, World!"
+
+END

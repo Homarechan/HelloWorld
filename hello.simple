@@ -1,0 +1,10 @@
+[::PROGRAM:Hello World program in SIMPLE
+A EQL @0
+MSG A
+END
+]
+{::DATA:Data part
+@0:T
+Hello, World!$$M
+$$@
+}

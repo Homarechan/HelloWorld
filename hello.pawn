@@ -1,0 +1,6 @@
+/* Hello World in Pawn */
+
+main()
+{
+    printf "Hello, World!"
+}

@@ -1,0 +1,3 @@
+# Hello world in Sawzall
+
+emit stdout <- "Hello, World!";

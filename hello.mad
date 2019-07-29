@@ -1,0 +1,5 @@
+         R Hello world in MAD
+
+PRINT FORMAT HELLOW
+VECTOR VALUES HELLOW=$13h0Hello, World!*$
+END OF PROGRAM

@@ -1,0 +1,9 @@
+; Hello World in Nullsoft Software Install Script (NSIS)
+
+Caption "Hello World!"
+OutFile ".\HelloWorld.exe"
+SilentInstall silent
+
+Section ""
+        MessageBox MB_OK "Hello World!"
+SectionEnd

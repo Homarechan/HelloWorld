@@ -1,0 +1,6 @@
+* Hello, World! in REFAL-2
+start
+entry go
+extrn PROUT
+go = <prout 'Hello, World!'>
+end

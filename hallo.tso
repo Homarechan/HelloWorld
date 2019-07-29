@@ -1,0 +1,3 @@
+PROC 0
+/* Hello World in TSO CLIST */
+write Hello, World!

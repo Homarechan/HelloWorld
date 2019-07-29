@@ -1,0 +1,3 @@
+Hello World in Yacas
+
+WriteString("Hello, World!")

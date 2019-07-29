@@ -1,0 +1,2 @@
+// Hello world in Squirrel
+printl("Hello, World!");

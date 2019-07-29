@@ -1,0 +1,6 @@
+PROGRAM Hello
+-- Hello world in Occam
+#USE ioconv
+
+SEQ
+  write.full.string(screen,"Hello, World!")

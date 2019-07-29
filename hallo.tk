@@ -1,0 +1,4 @@
+# Hello World in Tk
+
+label .l -text "Hello, World!"
+pack .l

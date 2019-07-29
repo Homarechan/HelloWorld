@@ -1,0 +1,8 @@
+// Hello world in RPG IV version 5
+
+D wait           S              1
+
+  /Free
+   dsply ( 'Hello, World!') ' ' wait;
+
+   *inlr = *on;   
