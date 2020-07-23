@@ -1,0 +1,9 @@
+// Hello World in Zen
+
+const std = @import("std");
+
+pub fn main() anyerror!void {
+    const stdout = try std.fs.getStdOut();
+    _ = try stdout.write("Hello, world!\n");
+}
+
